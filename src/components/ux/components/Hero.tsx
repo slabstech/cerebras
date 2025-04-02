@@ -86,7 +86,7 @@ export default function Hero() {
               width: { sm: '100%', md: '80%' },
             }}
           >
-          
+          Cerebras is an advanced AI-powered platform designed to assist in military decision-making processes.
           </Typography>
           <Typography
             sx={{
@@ -95,11 +95,30 @@ export default function Hero() {
               width: { sm: '100%', md: '80%' },
             }}
           >
-            
           
           </Typography>
           
-        
+          <Stack
+            direction={{ xs: 'column', sm: 'row' }}
+            spacing={1}
+            useFlexGap
+            sx={{ pt: 2, width: { xs: '100%', sm: '350px' } }}
+          >
+            <div >
+          <Grid container spacing={2}>
+            <Grid size={{ xs: 12 }} >
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/6uCK0TQTYGU?rel=0"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              title="Watch the video"
+            ></iframe>
+            </Grid>
+          </Grid>
+          </div>
 
           <Divider />
 
@@ -148,11 +167,6 @@ export default function Hero() {
           </div>
           
         </Stack>
-
-
-
-
-
 
         <div style={{ display: 'none' }}>
         <StyledBox id="image" />

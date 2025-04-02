@@ -19,25 +19,19 @@ class About extends Component<AboutProps, AppState> {
       <div style={{ minHeight: "80vh", display: "flex", justifyContent: "center", alignItems: "center" }}>
       <Container>
         <Typography variant="h4" gutterBottom>
-          Dhwani - Voice AI for Kannada
+          Cerberas - Militart Decision AI
         </Typography>
         <Typography variant="body1" paragraph>
-          <strong>What will Dhwani Do ?</strong>
+          <strong>What will Cerebras Do ?</strong>
         </Typography>       
           <ul>
-            <li>Assist with Kannada AI</li>
+            <li>Assist with Military Data Analysis</li>
           </ul>
         <Typography variant="body1" paragraph>
-          <strong>What will Dhwani not do ?</strong>
+          <strong>What will Cerebras not do ?</strong>
         </Typography>
           <ul>
-            <li>Solve AI for all Indian Languages</li>
-          </ul>
-        <Typography variant="body1" paragraph>
-          <strong>Why Dhwani ?</strong>
-        </Typography>
-          <ul>
-            <li>Use Kannada AI in everyday life</li>
+            <li>Solve AI for Military Issues</li>
           </ul>
       </Container>
       </div>
